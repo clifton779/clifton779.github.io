@@ -1,0 +1,34 @@
+body {
+    background-color: bisque;
+    font-family: sans-serif;
+}
+header h1, h2, p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.bio {
+    float: right;
+    position:relative;
+;
+}
+.assignment {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.assignment tr:nth-child(odd) {
+    background:burlywood;
+}
+.assignment tr:nth-child(even) {
+    background: cadetblue;
+}
+a :hover {
+    color: red;
+}
+.emph {
+    font-weight: bold;
+    color:red
+}
