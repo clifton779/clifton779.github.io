@@ -1,6 +1,10 @@
 body {
     background-color: bisque;
     font-family: sans-serif;
+    text-justify: center;
+    font-size: 26pt;
+    background-image: url("subtle-waves1024.jpg");
+    color: mediumturquoise;
 }
 header h1, h2, p{
     margin: 0;
@@ -18,6 +22,10 @@ header h1, h2, p{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse;
+}
+.assignment a{
+    color: lightblue;
 }
 .assignment tr:nth-child(odd) {
     background:burlywood;
@@ -28,7 +36,18 @@ header h1, h2, p{
 a :hover {
     color: red;
 }
+a {
+    color: mediumturquoise;
+}
 .emph {
     font-weight: bold;
     color:red
+}
+#author {
+    float:right;
+    top: -320px;
+    position: relative;
+}
+#head {
+    color: darkolivegreen;
 }
