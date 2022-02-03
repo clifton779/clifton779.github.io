@@ -48,6 +48,9 @@ a {
     top: -320px;
     position: relative;
 }
-#head {
-    color: darkolivegreen;
+.head {
+    color: #91C499;
+}
+#bio {
+    text-align: center;
 }
