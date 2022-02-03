@@ -1,7 +1,6 @@
 body {
     background-color: bisque;
     font-family: sans-serif;
-    text-justify: center;
     font-size: 26pt;
     background-image: url("subtle-waves1024.jpg");
     color: mediumturquoise;
@@ -53,4 +52,7 @@ a {
 }
 #bio {
     text-align: center;
+}
+#quote {
+    font-style: italic;
 }
