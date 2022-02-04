@@ -5,6 +5,10 @@ body {
     background-image: url("subtle-waves1024.jpg");
     color: mediumturquoise;
 }
+img {
+    height: 250px;
+    width: 200px;
+}
 header h1, h2, p{
     margin: 0;
     padding: 0;
@@ -15,13 +19,15 @@ header h1, h2, p{
 .bio {
     float: right;
     position:relative;
-;
+    top: -200px;
 }
 .assignment {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
+    position:relative;
+    right: -120px;
 }
 .assignment a{
     color: lightblue;
